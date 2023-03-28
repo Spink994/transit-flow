@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+p {
+  @apply font-Krub text-[16px] font-5 text-secondary-3;
+}
+
+a {
+  @apply no-underline;
+}
