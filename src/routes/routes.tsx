@@ -1,10 +1,15 @@
-import React from 'react';
+import React, { lazy } from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+const Home = lazy(() => import('../features/home'));
 
 function App() {
   return (
-    <div className="w-screen h-screen">
-      <p>Transit Flowing towards</p>
-    </div>
+    <Router>
+      <Routes>
+        <Route index element={<Home />} />
+      </Routes>
+    </Router>
   );
 }
 
