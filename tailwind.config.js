@@ -25,6 +25,7 @@ export default {
       backgroundImage: {
         'gradient-1':
           'linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 50.75%, #FFD7A6 102.71%)',
+        'hero-bg': 'url("./assets/images/cargo-ship.jpg")',
       },
 
       lineHeight: {
