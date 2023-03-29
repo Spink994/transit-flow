@@ -3,11 +3,11 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import routesConst from './routes.const';
 import { Skeleton } from '../../src/components';
 
-const Home = lazy(() => import('../pages/home'));
-const Project = lazy(() => import('../pages/project'));
-const About = lazy(() => import('../pages/about'));
-const Contact = lazy(() => import('../pages/contact'));
-const NotFound = lazy(() => import('../pages/notFound'));
+const Home = lazy(() => import('../pages/Home'));
+const Project = lazy(() => import('../pages/Project'));
+const About = lazy(() => import('../pages/About'));
+const Contact = lazy(() => import('../pages/Contact'));
+const NotFound = lazy(() => import('../pages/NotFound'));
 
 function App() {
   return (

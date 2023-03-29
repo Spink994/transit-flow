@@ -10,7 +10,7 @@ import Twitter from '../../assets/icons/twitter.svg';
 import Facebook from '../../assets/icons/facebook.svg';
 import Linkedin from '../../assets/icons/linkedin.svg';
 
-import routesConst from '../../../src/routes/routes.const';
+import routesConst from '../../routes/routes.const';
 
 type LinkType = {
   route: string;
@@ -64,7 +64,7 @@ function NavBar() {
       </div>
 
       {/* Navigation Container */}
-      <div className="h-[78px] bg-[#09124240]">
+      <div className="h-[78px] bg-[#09124240] backdrop-blur-[5px]">
         <div className={`${commonStyles}`}>
           {/* Navigation Panel */}
           <div className="flex items-center font-6 text-secondary-1 font-Krub text-[16px]">
@@ -135,7 +135,7 @@ function Links({ route, label, extraStyles, borderRight }: LinkType) {
         {/* If the active page is the current page the horizontal indicator appears beneath it */}
         {activePage === route && (
           /* Horizontal line */
-          <div className="absolute h-[2px] w-[43px] bottom-[-27px] left-[50%] -translate-x-[50%] bg-secondary-1" />
+          <div className="absolute h-[3px] w-[43px] bottom-[-27px] left-[50%] -translate-x-[50%] bg-secondary-1" />
         )}
       </div>
 

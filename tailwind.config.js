@@ -25,7 +25,10 @@ export default {
       backgroundImage: {
         'gradient-1':
           'linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 50.75%, #FFD7A6 102.71%)',
+        'gradient-2':
+          'linear-gradient(360deg, #091242 -11.11%, rgba(9, 18, 66, 0) 90.28%)',
         'hero-bg': 'url("./assets/images/cargo-ship.jpg")',
+        'logistics-bg': 'url("./assets/images/cargos.jpg")',
       },
 
       lineHeight: {

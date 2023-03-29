@@ -1,4 +1,5 @@
-export { default as Layout } from './layout';
-export { default as NavBar } from './navBar';
-export { default as Skeleton } from './skeleton';
-export { default as Button } from './button';
+export { default as Layout } from './Layout';
+export { default as NavBar } from './NavBar';
+export { default as Skeleton } from './Skeleton';
+export { default as Button } from './Button';
+export { default as TitleHeader } from './TitleHeader';
