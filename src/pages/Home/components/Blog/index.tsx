@@ -4,7 +4,6 @@ import BlogImageOne from '../../../../assets/images/latest-news-image-one.jpg';
 import BlogImageTwo from '../../../../assets/images/latest-news-image-two.jpg';
 import BlogImageThree from '../../../../assets/images/latest-news-image-three.jpg';
 
-import Calendar from '../../../../assets/icons/calendar.svg';
 import BlogCard from './BlogCard';
 
 function Blog() {

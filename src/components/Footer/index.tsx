@@ -5,7 +5,6 @@ import FooterImage from '../../assets/images/cargos-overview.jpg';
 import Logo from '../../assets/icons/logo.svg';
 import Email from '../../assets/icons/email.svg';
 import Call from '../../assets/icons/call.svg';
-import Instagram from '../../assets/icons/instagram.svg';
 import Twitter from '../../assets/icons/twitter.svg';
 import Facebook from '../../assets/icons/facebook.svg';
 import Linkedin from '../../assets/icons/linkedin.svg';
