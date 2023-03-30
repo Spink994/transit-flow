@@ -24,7 +24,7 @@ function Button({ label, onClick, type, variant }: ButtonType) {
     <button
       type={type}
       onClick={onClick}
-      className={`group relative overflow-hidden max-w-[194px] h-[60px] text-[16px] font-6 font-Krub ${buttonTheme.theme} ${buttonTheme.borderColor}`}
+      className={`group relative overflow-hidden max-w-[194px] w-full h-[60px] text-[16px] font-6 font-Krub ${buttonTheme.theme} ${buttonTheme.borderColor}`}
     >
       <span className="absolute left-[50%] top-[50%] -translate-x-[50%] -translate-y-[50%] w-full z-20">
         {label}

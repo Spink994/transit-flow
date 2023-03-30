@@ -4,12 +4,14 @@ type TitleHeaderType = {
   titleLabel: ReactNode;
   headerLabel?: ReactNode;
   extraStyles?: string;
+  headerStyles?: string;
 };
 
 function TitleHeader({
   titleLabel,
   headerLabel,
   extraStyles,
+  headerStyles,
 }: TitleHeaderType) {
   return (
     <div className="flex flex-col gap-[15px]">
@@ -18,7 +20,9 @@ function TitleHeader({
       >
         {titleLabel}
       </h6>
-      <h1 className="font-Rubik text-[35px] text-primary-2 font-6 leading-[41px]">
+      <h1
+        className={`font-Rubik text-[35px] text-primary-2 font-6 leading-[41px] ${headerStyles}`}
+      >
         {headerLabel}
       </h1>
     </div>

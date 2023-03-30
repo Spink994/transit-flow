@@ -1,5 +1,15 @@
 import { Layout } from '../../components';
-import { Hero, Logistics, WhatWeDo } from './components';
+import {
+  Blog,
+  Experts,
+  GetInTouch,
+  Hero,
+  Logistics,
+  Opportunity,
+  Testimonials,
+  Transporting,
+  WhatWeDo,
+} from './components';
 
 function Home() {
   return (
@@ -8,6 +18,12 @@ function Home() {
         <Hero />
         <WhatWeDo />
         <Logistics />
+        <Transporting />
+        <Testimonials />
+        <Opportunity />
+        <Experts />
+        <GetInTouch />
+        <Blog />
       </>
     </Layout>
   );

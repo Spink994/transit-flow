@@ -11,6 +11,7 @@ import Facebook from '../../assets/icons/facebook.svg';
 import Linkedin from '../../assets/icons/linkedin.svg';
 
 import routesConst from '../../routes/routes.const';
+import scrollAnimaition from './scrollAnimaition';
 
 type LinkType = {
   route: string;
@@ -23,8 +24,14 @@ function NavBar() {
   const commonStyles =
     'h-full max-w-[1200px] flex justify-between items-center mx-auto px-8';
 
+  const { hide } = scrollAnimaition();
+
   return (
-    <>
+    <div
+      className={`${
+        hide ? '-translate-y-[160px]' : 'translate-y-0'
+      } transition-all duration-200`}
+    >
       <div className="h-[80px] bg-primary-2 font-Krub font-5 lg:h-[160px]">
         {/* Header Information Container */}
         <div className={` gap-8 ${commonStyles}`}>
@@ -117,7 +124,7 @@ function NavBar() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

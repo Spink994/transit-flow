@@ -16,7 +16,7 @@ function Logistics() {
       </section>
 
       {/* Overlapping Logistics Details */}
-      <div className="flex flex-col max-w-[1200px] mx-auto p-[90px] bg-white -translate-y-[90px]">
+      <div className="flex flex-col max-w-[1134px] mx-auto p-[90px] bg-white -translate-y-[90px]">
         <div className="flex flex-col lg:flex-row">
           <div className="flex flex-col gap-[12px]">
             <TitleHeader
@@ -59,7 +59,7 @@ function Logistics() {
         </div>
 
         <div className="flex items-center justify-between min-w-full h-[143px] mt-[86px] border-t border-b font-League">
-          <div className="max-w-[510px] h-full flex items-center px-[10%] gap-4">
+          <div className="max-w-[510px] h-full flex items-center px-[5%] gap-4">
             <span className="font-Rubik text-[50px] font-6">1294</span>
             <img src={Checkbox} alt="checkbox" />
             <span>Delivered Packages</span>
@@ -67,7 +67,7 @@ function Logistics() {
 
           <div className="h-full min-w-[2px] bg-secondary-1" />
 
-          <div className="max-w-[510px] flex items-center px-[10%] gap-4">
+          <div className="max-w-[510px] flex items-center px-[5%] gap-4">
             <span className="font-Rubik text-[50px] font-6">3594</span>
             <img src={Checkbox} alt="checkbox" />
             <span>Satisfied Clients</span>

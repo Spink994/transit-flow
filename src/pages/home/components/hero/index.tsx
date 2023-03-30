@@ -2,8 +2,8 @@ import { Button } from '../../../../components';
 
 function Hero() {
   return (
-    <section className="h-[798px] bg-hero-bg bg-no-repeat">
-      <div className="h-full max-w-[1200px] flex flex-col justify-center gap-6 mx-auto px-8">
+    <section className="h-[798px] flex w-full bg-hero-bg bg-no-repeat">
+      <div className="h-full max-w-[1200px] w-full flex flex-col justify-center gap-6 mx-auto px-8">
         <h6 className="w-max px-[9px] border-l-[4px] border-primary-1 font-Rubik text-[14px] text-white bg-[rgba(4,28,55,0.5)]">
           Logistics & Supply Chain Solutions
         </h6>

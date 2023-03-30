@@ -1,3 +1,9 @@
 export { default as Hero } from './Hero';
 export { default as WhatWeDo } from './WhatWeDo';
 export { default as Logistics } from './Logistics';
+export { default as Transporting } from './Transporting';
+export { default as Testimonials } from './Testimonials';
+export { default as Opportunity } from './Opportunity';
+export { default as Experts } from './Experts';
+export { default as GetInTouch } from './GetInTouch';
+export { default as Blog } from './Blog';
