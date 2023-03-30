@@ -1,4 +1,4 @@
-import { TitleHeader } from '../../../../components';
+import TitleHeader from '../../../../components/TitleHeader';
 
 import MovingProduct from '../../../../assets/icons/moving-products.svg';
 import OppotunityBackground from '../../../../assets/icons/opportunity-bg.svg';

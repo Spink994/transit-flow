@@ -1,4 +1,5 @@
-import { Button, TitleHeader } from '../../../../components';
+import TitleHeader from '../../../../components/TitleHeader';
+import Button from '../../../../components/Button';
 
 import Studio from '../../../../assets/images/studio-green.jpg';
 import Norto from '../../../../assets/images/norto.jpg';

@@ -4,7 +4,7 @@ import ContractLogistics from '../../../../assets/images/contract-logistics.jpg'
 import WareHouse from '../../../../assets/images/warehouse-distribution.jpg';
 import SpecialisedTransport from '../../../../assets/images/specialised-transport.jpg';
 
-import { Button } from '../../../../../src/components';
+import  Button  from '../../../../components/Button';
 
 function Transporting() {
   return (

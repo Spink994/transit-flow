@@ -1,4 +1,4 @@
-import { TitleHeader } from '../../../../components';
+import TitleHeader from '../../../../components/TitleHeader';
 
 import ExpertImageOne from '../../../../assets/images/expert-one.jpg';
 import ExpertImageTwo from '../../../../assets/images/expert-two.jpg';

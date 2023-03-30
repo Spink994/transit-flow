@@ -1,4 +1,4 @@
-import { TitleHeader } from '../../../../../src/components';
+import TitleHeader from '../../../../components/TitleHeader';
 
 import SeaTransport from '../../../../assets/icons/sea-transport.svg';
 import WareHouse from '../../../../assets/icons/warehouse.svg';

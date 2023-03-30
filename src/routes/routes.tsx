@@ -1,7 +1,7 @@
 import { Suspense, lazy } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import routesConst from './routes.const';
-import { Skeleton } from '../../src/components';
+import Skeleton from '../components/Skeleton';
 
 const Home = lazy(() => import('../pages/Home'));
 const Project = lazy(() => import('../pages/Project'));

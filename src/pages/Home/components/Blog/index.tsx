@@ -1,4 +1,5 @@
-import { Button, TitleHeader } from '../../../../components';
+import Button from '../../../../components/Button';
+import TitleHeader from '../../../../components/TitleHeader';
 
 import BlogImageOne from '../../../../assets/images/latest-news-image-one.jpg';
 import BlogImageTwo from '../../../../assets/images/latest-news-image-two.jpg';

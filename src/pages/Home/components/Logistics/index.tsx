@@ -1,4 +1,4 @@
-import { TitleHeader } from '../../../../components';
+import TitleHeader from '../../../../components/TitleHeader';
 
 import DeliveryTime from '../../../../assets/icons/delivery.svg';
 import TravelCost from '../../../../assets/icons/optimized-travel-cost.svg';

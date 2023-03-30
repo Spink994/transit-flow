@@ -1,4 +1,4 @@
-import { TitleHeader } from '../../../../../src/components';
+import TitleHeader from '../../../../components/TitleHeader';
 
 import PreviousButton from '../../../../assets/icons/arrow-left.svg';
 import NextButton from '../../../../assets/icons/arrow-right.svg';
